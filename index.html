@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8"/>
+
+
+        <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-database.js"></script>
+
+        <script src="functions.js"></script>
+	    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <title>Raíssa</title>
+	</head>
+	<body>
+		<header>
+		<h1>Raíssa de Oliveira Santana Passos </h1>
+			<nav>Estudante de Engenharia de Telecomunicações, 24 anos, com interesse pela área de tecnologia, atualmente desenvolve projeto de Iniciação Científica na área de óptica aplicada e está estagiando na empresa Itaú Unibanco na área de TI. </nav>
+		</header>
+
+		<section>
+			<h4>CONTATO</h4>
+		<ul>
+		<p>
+			Avenida Cônego Manoel Alves, 220 <br />
+			Limeira - SP , 13484-420 <br />
+			passos.r96@gmail.com
+				<br />
+		</p>
+		</ul>
+
+
+			<h4>EXPERIENCIA</h4>
+			<ul>
+		<li><p>
+			Estagio na Empresa Itau Unibanco <br />
+			DEZEMBRO DE 2019 - ATUALMENTE
+
+		</p></li>
+				<a href="https://www.itau.com.br/">Itaú</a><br />
+
+		<li><p>
+			PIBIC - Programa de Iniciação Científica da Unicamp <br />
+			AGOSTO DE 2018 - ATUALMENTE <br />
+			Projeto: Desenvolvimento de sistemas de medidas de índice de refração
+			de filmes e substratos dielétricos.<br />
+		</p></li>
+
+		<li><p>
+			Átria Junior, Faculdade de Tecnologia — Unicamp <br />
+			AGOSTO DE 2018 - JANEIRO DE 2019 <br />
+			Assessora de Telecomunicações em projetos voltados para a
+			área de engenharia de telecomunicações.<br />
+
+		</p></li>
+				<a href="http://atriajr.com.br/">Átria</a><br />
+		<li><p>
+			ONG Sonhar Acordado — São José dos Campos -SP <br />
+			JANEIRO DE 2017 - JANEIRO DE 2018 <br />
+			Trabalho social realizado em escola pública com crianças de 6 à 9 anos. <br />
+
+		</p></li>
+				<a href="http://sonharacordado.org.br/quem-somos/">ONG Sonhar Acordado</a><br />
+			</ul>
+		</section>
+
+
+		<section>
+			<div class="experiencias"><h4>COMPETENCIAS</h4>
+		<ul>
+		<li><p>
+			Conhecimentos básicos nas Linguagens de Programação ministradas na graduação: C/C++, <br /></li><li>
+			JAVA, VHDL e nos microcontroladores:  Arduino Uno e Freescale FRDM - KL25Z . <br /></li><li>
+			Pacote Office: Excel, Word, Power Point.<br /></li>
+		</p>
+		</ul>
+			</div>
+			<div class="experiencias"><h4>FORMACAO</h4>
+		<ul>
+		<p>
+			Faculdade de Tecnologia da Universidade Estadual de Campinas - Limeira-SP <br />
+			2015 - ATUALMENTE <br />
+			Estudante de Engenharia de Telecomunicações. <br />
+		</p>
+		</ul>
+			</div>
+
+
+
+			<div class="experiencias"><h4>IDIOMAS</h4>
+		<ul>
+		<li><p>
+			INGLÊS: Intermediário.  <br /></li><li>
+			ESPANHOL: Básico.  <br /></li>
+
+		</p>
+		</ul>
+			</div>
+		</section>
+
+<footer>
+		<img src="r.jpg" alt="Perfil"/ width="100" height="100">
+
+     <h1>Fale comigo:</h1>
+    <form id = "contactForm">
+      <p>
+	<label>Name: <input type="text" name="name" id="name"/></label>
+      </p>
+      <p>
+	<label>Company:<input type="text" name="company" id="company"/>
+      </p>
+      <p>
+	<label>Email:<input type="email" name="email"/>
+      </p>
+      <p>
+	<label>Phone:<input type="text" name="phone" id="phone"/>
+      </p>
+      <p>
+	<label>Message:</br><textarea name="message" rows="5" id="message">
+	    </textarea>
+	</label>
+      </p>
+      <p>
+	<button type="submit" onclick="return submitForm()">Submit</button>
+      </p>
+    </form>
+
+    <div class="closed" id="confirm">Your Message has been sent!</>
+
+</footer>
+	</body>
+</html>
